@@ -1,0 +1,3 @@
+[submodule "ExampleLibraryB"]
+	path = ExampleLibraryB
+	url = git@github.com:pablogrigo/ExampleLibraryB.git
