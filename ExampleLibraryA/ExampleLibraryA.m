@@ -7,11 +7,13 @@
 //
 
 #import "ExampleLibraryA.h"
+#import <ExampleLibraryB/ExampleLibraryB.h>
 
 @implementation ExampleLibraryA
 
 - (int)someValue {
-    return 41;
+    ExampleLibraryB *b = [[ExampleLibraryB alloc] init];
+    return [b maxValue] * 2;
 }
 
 @end
