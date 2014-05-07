@@ -11,7 +11,7 @@
 @implementation ExampleLibraryA
 
 - (int)someValue {
-    return 42;
+    return 41;
 }
 
 @end
